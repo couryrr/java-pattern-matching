@@ -1,0 +1,958 @@
+[
+  {
+    "id": "11723755474",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 662226797,
+      "name": "couryrr/scripts-conf-dot",
+      "url": "https://api.github.com/repos/couryrr/scripts-conf-dot"
+    },
+    "payload": {
+      "ref": "feature/better-bashrc-setup",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/feature/better-bashrc-setup",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-12T01:16:15Z"
+  },
+  {
+    "id": "11723747626",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 662226797,
+      "name": "couryrr/scripts-conf-dot",
+      "url": "https://api.github.com/repos/couryrr/scripts-conf-dot"
+    },
+    "payload": {
+      "ref": "feature/workflow-updates",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/feature/workflow-updates",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-12T01:15:58Z"
+  },
+  {
+    "id": "9341021848",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 662226797,
+      "name": "couryrr/scripts-conf-dot",
+      "url": "https://api.github.com/repos/couryrr/scripts-conf-dot"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 4,
+      "pull_request": {
+        "url": "https://api.github.com/repos/couryrr/scripts-conf-dot/pulls/4",
+        "id": 3665537377,
+        "number": 4,
+        "head": {
+          "ref": "feature/workflow-updates",
+          "sha": "7cc7031f31b6bed926606309dd8f0ac828566644",
+          "repo": {
+            "id": 662226797,
+            "url": "https://api.github.com/repos/couryrr/scripts-conf-dot",
+            "name": "scripts-conf-dot"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "cb3bfee5df6df0adcf6f8a2629fcf2d9c29eb2d5",
+          "repo": {
+            "id": 662226797,
+            "url": "https://api.github.com/repos/couryrr/scripts-conf-dot",
+            "name": "scripts-conf-dot"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-12T01:15:55Z"
+  },
+  {
+    "id": "11723746731",
+    "type": "PushEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 662226797,
+      "name": "couryrr/scripts-conf-dot",
+      "url": "https://api.github.com/repos/couryrr/scripts-conf-dot"
+    },
+    "payload": {
+      "repository_id": 662226797,
+      "push_id": 34014787926,
+      "ref": "refs/heads/main",
+      "head": "1c115586f253976ecc6b6299f763a2c168cde9fa",
+      "before": "cb3bfee5df6df0adcf6f8a2629fcf2d9c29eb2d5"
+    },
+    "public": true,
+    "created_at": "2026-05-12T01:15:56Z"
+  },
+  {
+    "id": "9340999887",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 662226797,
+      "name": "couryrr/scripts-conf-dot",
+      "url": "https://api.github.com/repos/couryrr/scripts-conf-dot"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 4,
+      "pull_request": {
+        "url": "https://api.github.com/repos/couryrr/scripts-conf-dot/pulls/4",
+        "id": 3665537377,
+        "number": 4,
+        "head": {
+          "ref": "feature/workflow-updates",
+          "sha": "7cc7031f31b6bed926606309dd8f0ac828566644",
+          "repo": {
+            "id": 662226797,
+            "url": "https://api.github.com/repos/couryrr/scripts-conf-dot",
+            "name": "scripts-conf-dot"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "cb3bfee5df6df0adcf6f8a2629fcf2d9c29eb2d5",
+          "repo": {
+            "id": 662226797,
+            "url": "https://api.github.com/repos/couryrr/scripts-conf-dot",
+            "name": "scripts-conf-dot"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-12T01:15:03Z"
+  },
+  {
+    "id": "11723719222",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 662226797,
+      "name": "couryrr/scripts-conf-dot",
+      "url": "https://api.github.com/repos/couryrr/scripts-conf-dot"
+    },
+    "payload": {
+      "ref": "feature/workflow-updates",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/feature/workflow-updates",
+      "master_branch": "main",
+      "description": "Just some scripts, configuration and dot files I use",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-12T01:14:53Z"
+  },
+  {
+    "id": "9323967939",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 662226797,
+      "name": "couryrr/scripts-conf-dot",
+      "url": "https://api.github.com/repos/couryrr/scripts-conf-dot"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 3,
+      "pull_request": {
+        "url": "https://api.github.com/repos/couryrr/scripts-conf-dot/pulls/3",
+        "id": 3663139559,
+        "number": 3,
+        "head": {
+          "ref": "feature/better-bashrc-setup",
+          "sha": "1a57482dbcabd532dfafbbea568dd558a87fdde8",
+          "repo": {
+            "id": 662226797,
+            "url": "https://api.github.com/repos/couryrr/scripts-conf-dot",
+            "name": "scripts-conf-dot"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "dbd0fabd53ecf12ec1404b6b97a48b5e88e21516",
+          "repo": {
+            "id": 662226797,
+            "url": "https://api.github.com/repos/couryrr/scripts-conf-dot",
+            "name": "scripts-conf-dot"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-11T16:49:07Z"
+  },
+  {
+    "id": "11706248852",
+    "type": "PushEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 662226797,
+      "name": "couryrr/scripts-conf-dot",
+      "url": "https://api.github.com/repos/couryrr/scripts-conf-dot"
+    },
+    "payload": {
+      "repository_id": 662226797,
+      "push_id": 33997323132,
+      "ref": "refs/heads/main",
+      "head": "cb3bfee5df6df0adcf6f8a2629fcf2d9c29eb2d5",
+      "before": "dbd0fabd53ecf12ec1404b6b97a48b5e88e21516"
+    },
+    "public": true,
+    "created_at": "2026-05-11T16:49:09Z"
+  },
+  {
+    "id": "9323959388",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 662226797,
+      "name": "couryrr/scripts-conf-dot",
+      "url": "https://api.github.com/repos/couryrr/scripts-conf-dot"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 3,
+      "pull_request": {
+        "url": "https://api.github.com/repos/couryrr/scripts-conf-dot/pulls/3",
+        "id": 3663139559,
+        "number": 3,
+        "head": {
+          "ref": "feature/better-bashrc-setup",
+          "sha": "1a57482dbcabd532dfafbbea568dd558a87fdde8",
+          "repo": {
+            "id": 662226797,
+            "url": "https://api.github.com/repos/couryrr/scripts-conf-dot",
+            "name": "scripts-conf-dot"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "dbd0fabd53ecf12ec1404b6b97a48b5e88e21516",
+          "repo": {
+            "id": 662226797,
+            "url": "https://api.github.com/repos/couryrr/scripts-conf-dot",
+            "name": "scripts-conf-dot"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-11T16:48:56Z"
+  },
+  {
+    "id": "9147626023",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 41881900,
+      "name": "microsoft/vscode",
+      "url": "https://api.github.com/repos/microsoft/vscode"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/microsoft/vscode/issues/314311",
+        "repository_url": "https://api.github.com/repos/microsoft/vscode",
+        "labels_url": "https://api.github.com/repos/microsoft/vscode/issues/314311/labels{/name}",
+        "comments_url": "https://api.github.com/repos/microsoft/vscode/issues/314311/comments",
+        "events_url": "https://api.github.com/repos/microsoft/vscode/issues/314311/events",
+        "html_url": "https://github.com/microsoft/vscode/issues/314311",
+        "id": 4380861990,
+        "node_id": "I_kwDOAn8RLM8AAAABBR6mJg",
+        "number": 314311,
+        "title": "Update on \"Co-authored-by: Copilot\" in commit messages",
+        "user": {
+          "login": "dmitrivMS",
+          "id": 9581278,
+          "node_id": "MDQ6VXNlcjk1ODEyNzg=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/9581278?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmitrivMS",
+          "html_url": "https://github.com/dmitrivMS",
+          "followers_url": "https://api.github.com/users/dmitrivMS/followers",
+          "following_url": "https://api.github.com/users/dmitrivMS/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmitrivMS/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmitrivMS/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmitrivMS/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmitrivMS/orgs",
+          "repos_url": "https://api.github.com/users/dmitrivMS/repos",
+          "events_url": "https://api.github.com/users/dmitrivMS/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmitrivMS/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": true
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "dmitrivMS",
+            "id": 9581278,
+            "node_id": "MDQ6VXNlcjk1ODEyNzg=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/9581278?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/dmitrivMS",
+            "html_url": "https://github.com/dmitrivMS",
+            "followers_url": "https://api.github.com/users/dmitrivMS/followers",
+            "following_url": "https://api.github.com/users/dmitrivMS/following{/other_user}",
+            "gists_url": "https://api.github.com/users/dmitrivMS/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/dmitrivMS/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/dmitrivMS/subscriptions",
+            "organizations_url": "https://api.github.com/users/dmitrivMS/orgs",
+            "repos_url": "https://api.github.com/users/dmitrivMS/repos",
+            "events_url": "https://api.github.com/users/dmitrivMS/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/dmitrivMS/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": true
+          }
+        ],
+        "milestone": {
+          "url": "https://api.github.com/repos/microsoft/vscode/milestones/27",
+          "html_url": "https://github.com/microsoft/vscode/milestone/27",
+          "labels_url": "https://api.github.com/repos/microsoft/vscode/milestones/27/labels",
+          "id": 1951901,
+          "node_id": "MDk6TWlsZXN0b25lMTk1MTkwMQ==",
+          "number": 27,
+          "title": "On Deck",
+          "description": "The Issues assigned to the **On Deck** milestone under consideration for the upcoming milestones.",
+          "creator": {
+            "login": "egamma",
+            "id": 172399,
+            "node_id": "MDQ6VXNlcjE3MjM5OQ==",
+            "avatar_url": "https://avatars.githubusercontent.com/u/172399?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/egamma",
+            "html_url": "https://github.com/egamma",
+            "followers_url": "https://api.github.com/users/egamma/followers",
+            "following_url": "https://api.github.com/users/egamma/following{/other_user}",
+            "gists_url": "https://api.github.com/users/egamma/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/egamma/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/egamma/subscriptions",
+            "organizations_url": "https://api.github.com/users/egamma/orgs",
+            "repos_url": "https://api.github.com/users/egamma/repos",
+            "events_url": "https://api.github.com/users/egamma/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/egamma/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": true
+          },
+          "open_issues": 1118,
+          "closed_issues": 1107,
+          "state": "open",
+          "created_at": "2016-08-19T16:02:12Z",
+          "updated_at": "2026-05-11T15:30:25Z",
+          "due_on": null,
+          "closed_at": null
+        },
+        "comments": 80,
+        "created_at": "2026-05-05T01:35:12Z",
+        "updated_at": "2026-05-11T17:45:08Z",
+        "closed_at": null,
+        "assignee": {
+          "login": "dmitrivMS",
+          "id": 9581278,
+          "node_id": "MDQ6VXNlcjk1ODEyNzg=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/9581278?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dmitrivMS",
+          "html_url": "https://github.com/dmitrivMS",
+          "followers_url": "https://api.github.com/users/dmitrivMS/followers",
+          "following_url": "https://api.github.com/users/dmitrivMS/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dmitrivMS/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dmitrivMS/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dmitrivMS/subscriptions",
+          "organizations_url": "https://api.github.com/users/dmitrivMS/orgs",
+          "repos_url": "https://api.github.com/users/dmitrivMS/repos",
+          "events_url": "https://api.github.com/users/dmitrivMS/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dmitrivMS/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": true
+        },
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "What happened?\n--------------\n\nIn 1.110, we added a setting to add Copilot as coauthor in commit messages by appending `Co-authored-by: Copilot copilot@github.com`. The setting `git.addAICoAuthor` has three different values:\n\n* `off` - no attribution no matter whether Copilot assisted or not with the code in this commit\n* `chatAndAgent` - add attribution if the commit contains code that was generated using the chat feature\n* `all` - add attribution if the commit contains any kind of AI-generated code (chat, inline completions, NES)\n\nThe default value of the setting was `off`.\n\nIn 1.117 (public rollout started 4/22), we changed the setting default to `all`. There was a bug in the code that was not found in testing that attributed non-Copilot code completions to Copilot. This resulted in commit messages containing `Co-authored-by: Copilot copilot@github.com` even when the `disableAIfeatures` setting was turned on. This issue is tracked in https://github.com/microsoft/vscode/issues/313064.\n\nBecause of the bug, we changed the setting value to `chatAndAgent` in 1.118 (public rollout started 4/29).\n\nYou can disable the functionality by explicitly turning the feature off in user settings:\n`\"git.addAICoAuthor\": \"off\"`.\n\nWhat is happening now?\n----------------------\n\n1. We reverted the default for the AI attribution feature back to `off`. We also ensure that the feature is disabled when `disableAIFeatures` is set to true no matter the value of `git.addAICoAuthor`. This was done in https://github.com/microsoft/vscode/pull/313931. These fixes will be tested and released in 1.119 (public rollout starting 5/6).\n2. We are reviewing our test and release processes for gaps to ensure we prevent similar issues in the future.\n\nWhat will happen to the feature?\n--------------------------------\n\nThank you for all your feedback. We'll make/retain the following changes:\n\n1. The attribution is never applied for changes that are not AI-related.\n2. Before adding a commit trailer, the user will have to give consent, no matter the default value of the setting.\n3. We'll review the attribution message. A better approach might be using the approach of \"assisted-by\" attribution as described in https://github.com/microsoft/vscode/issues/313962.\n4. The same approach would allow us to add model information as tracked in https://github.com/microsoft/vscode/issues/297353.\n\nWe will work on these improvements and iterate with the community via issues and discussions on GitHub to make sure the bugs are fixed and concerns are addressed.",
+        "reactions": {
+          "url": "https://api.github.com/repos/microsoft/vscode/issues/314311/reactions",
+          "total_count": 260,
+          "+1": 25,
+          "-1": 217,
+          "laugh": 12,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 5,
+          "rocket": 0,
+          "eyes": 1
+        },
+        "timeline_url": "https://api.github.com/repos/microsoft/vscode/issues/314311/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null,
+        "pinned_comment": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/microsoft/vscode/issues/comments/4388423681",
+        "html_url": "https://github.com/microsoft/vscode/issues/314311#issuecomment-4388423681",
+        "issue_url": "https://api.github.com/repos/microsoft/vscode/issues/314311",
+        "id": 4388423681,
+        "node_id": "IC_kwDOAn8RLM8AAAABBZIIAQ",
+        "user": {
+          "login": "couryrr",
+          "id": 2702992,
+          "node_id": "MDQ6VXNlcjI3MDI5OTI=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/2702992?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/couryrr",
+          "html_url": "https://github.com/couryrr",
+          "followers_url": "https://api.github.com/users/couryrr/followers",
+          "following_url": "https://api.github.com/users/couryrr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/couryrr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/couryrr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/couryrr/subscriptions",
+          "organizations_url": "https://api.github.com/users/couryrr/orgs",
+          "repos_url": "https://api.github.com/users/couryrr/repos",
+          "events_url": "https://api.github.com/users/couryrr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/couryrr/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-05-06T13:18:20Z",
+        "updated_at": "2026-05-06T13:18:20Z",
+        "body": "A fair read of this would be an attempt at 17 U.S.C. § 101 joint work or at least a muddying of the water for what is copyrightable. Since ai-generated anything is not currently settled law. If it cannot be copyrighted no one owns it; if no one owns it anyone or corporation can use it. I am sure buried in a ToS somewhere there is language that states some kind of co-author agreement.\n\nIt is a sad state of affairs we are in no longer being able to trust our tools.",
+        "pin": null,
+        "reactions": {
+          "url": "https://api.github.com/repos/microsoft/vscode/issues/comments/4388423681/reactions",
+          "total_count": 4,
+          "+1": 3,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 1,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-06T13:18:20Z",
+    "org": {
+      "id": 6154722,
+      "login": "microsoft",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/microsoft",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6154722?"
+    }
+  },
+  {
+    "id": "8964729484",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 937253475,
+      "name": "anthropics/claude-code",
+      "url": "https://api.github.com/repos/anthropics/claude-code"
+    },
+    "payload": {
+      "action": "labeled",
+      "issue": {
+        "url": "https://api.github.com/repos/anthropics/claude-code/issues/55044",
+        "repository_url": "https://api.github.com/repos/anthropics/claude-code",
+        "labels_url": "https://api.github.com/repos/anthropics/claude-code/issues/55044/labels{/name}",
+        "comments_url": "https://api.github.com/repos/anthropics/claude-code/issues/55044/comments",
+        "events_url": "https://api.github.com/repos/anthropics/claude-code/issues/55044/events",
+        "html_url": "https://github.com/anthropics/claude-code/issues/55044",
+        "id": 4359262894,
+        "node_id": "I_kwDON91aY88AAAABA9USrg",
+        "number": 55044,
+        "title": "[BUG] Claude code used full path bypassing worktree edits",
+        "user": {
+          "login": "couryrr",
+          "id": 2702992,
+          "node_id": "MDQ6VXNlcjI3MDI5OTI=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/2702992?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/couryrr",
+          "html_url": "https://github.com/couryrr",
+          "followers_url": "https://api.github.com/users/couryrr/followers",
+          "following_url": "https://api.github.com/users/couryrr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/couryrr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/couryrr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/couryrr/subscriptions",
+          "organizations_url": "https://api.github.com/users/couryrr/orgs",
+          "repos_url": "https://api.github.com/users/couryrr/repos",
+          "events_url": "https://api.github.com/users/couryrr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/couryrr/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 8190926413,
+            "node_id": "LA_kwDON91aY88AAAAB6DeeTQ",
+            "url": "https://api.github.com/repos/anthropics/claude-code/labels/duplicate",
+            "name": "duplicate",
+            "color": "888888",
+            "default": true,
+            "description": "This issue or pull request already exists"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2026-04-30T15:22:06Z",
+        "updated_at": "2026-05-04T09:51:22Z",
+        "closed_at": "2026-05-04T09:51:20Z",
+        "assignee": null,
+        "issue_field_values": [
+
+        ],
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) and this hasn't been reported yet\n- [x] This is a single bug report (please file separate reports for different bugs)\n- [x] I am using the latest version of Claude Code\n\n### What's Wrong?\n\nI am using claude code inside a worktree using `claude --worktree`. The worktree is created: \n\n```\n➜ git worktree list\n/<path>/<project>                                           9924f5f [main]\n/<path>/<project>/.claude/worktrees/noble-soaring-elephant  9924f5f [worktree-noble-soaring-elephant]\n```\n\nThe branch is there. I cannot switch to the worktree or the branch because it is actively used by claude code.\n\nThe agent was asked to do an action. The main branch was updated. I am not going to ask an LLM why it did something. It does not know. I did try and it hallucinated how worktrees work. The behavior was incorrect however the tools/subagents were called to a full path of my repo. The edits should be within the isolation of the worktree I opened the harness in. I now have to untie the agents vomit from my work.\n\nFrom what I can tell the agent used a full path to the directory for the subagent calls. The full path was to the root of the project not the relative path of the agent's worktree.\n\n### What Should Happen?\n\nWhen in a worktree claude code should use either the absolute path to the worktree it is in or a relative path.\n\n### Error Messages/Logs\n\n```shell\n\n```\n\n### Steps to Reproduce\n\nIt is hit or miss behavior. Run `claude --worktree` ask for an edit and hope it does not stomp on main.\n\n### Claude Model\n\nNone\n\n### Is this a regression?\n\nYes, this worked in a previous version\n\n### Last Working Version\n\n_No response_\n\n### Claude Code Version\n\n2.1.123\n\n### Platform\n\nAnthropic API\n\n### Operating System\n\nUbuntu/Debian Linux\n\n### Terminal/Shell\n\nWindows Terminal\n\n### Additional Information\n\n_No response_",
+        "reactions": {
+          "url": "https://api.github.com/repos/anthropics/claude-code/issues/55044/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/anthropics/claude-code/issues/55044/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "duplicate",
+        "pinned_comment": null
+      },
+      "label": {
+        "id": 8190926409,
+        "node_id": "LA_kwDON91aY88AAAAB6DeeSQ",
+        "url": "https://api.github.com/repos/anthropics/claude-code/labels/bug",
+        "name": "bug",
+        "color": "FF6B80",
+        "default": true,
+        "description": "Something isn't working"
+      },
+      "labels": [
+        {
+          "id": 8190926409,
+          "node_id": "LA_kwDON91aY88AAAAB6DeeSQ",
+          "url": "https://api.github.com/repos/anthropics/claude-code/labels/bug",
+          "name": "bug",
+          "color": "FF6B80",
+          "default": true,
+          "description": "Something isn't working"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2026-04-30T15:22:08Z",
+    "org": {
+      "id": 76263028,
+      "login": "anthropics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/anthropics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76263028?"
+    }
+  },
+  {
+    "id": "8964729202",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 937253475,
+      "name": "anthropics/claude-code",
+      "url": "https://api.github.com/repos/anthropics/claude-code"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/anthropics/claude-code/issues/55044",
+        "repository_url": "https://api.github.com/repos/anthropics/claude-code",
+        "labels_url": "https://api.github.com/repos/anthropics/claude-code/issues/55044/labels{/name}",
+        "comments_url": "https://api.github.com/repos/anthropics/claude-code/issues/55044/comments",
+        "events_url": "https://api.github.com/repos/anthropics/claude-code/issues/55044/events",
+        "html_url": "https://github.com/anthropics/claude-code/issues/55044",
+        "id": 4359262894,
+        "node_id": "I_kwDON91aY88AAAABA9USrg",
+        "number": 55044,
+        "title": "[BUG] Claude code used full path bypassing worktree edits",
+        "user": {
+          "login": "couryrr",
+          "id": 2702992,
+          "node_id": "MDQ6VXNlcjI3MDI5OTI=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/2702992?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/couryrr",
+          "html_url": "https://github.com/couryrr",
+          "followers_url": "https://api.github.com/users/couryrr/followers",
+          "following_url": "https://api.github.com/users/couryrr/following{/other_user}",
+          "gists_url": "https://api.github.com/users/couryrr/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/couryrr/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/couryrr/subscriptions",
+          "organizations_url": "https://api.github.com/users/couryrr/orgs",
+          "repos_url": "https://api.github.com/users/couryrr/repos",
+          "events_url": "https://api.github.com/users/couryrr/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/couryrr/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 8190926413,
+            "node_id": "LA_kwDON91aY88AAAAB6DeeTQ",
+            "url": "https://api.github.com/repos/anthropics/claude-code/labels/duplicate",
+            "name": "duplicate",
+            "color": "888888",
+            "default": true,
+            "description": "This issue or pull request already exists"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 2,
+        "created_at": "2026-04-30T15:22:06Z",
+        "updated_at": "2026-05-04T09:51:22Z",
+        "closed_at": "2026-05-04T09:51:20Z",
+        "assignee": null,
+        "issue_field_values": [
+
+        ],
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Preflight Checklist\n\n- [x] I have searched [existing issues](https://github.com/anthropics/claude-code/issues?q=is%3Aissue%20state%3Aopen%20label%3Abug) and this hasn't been reported yet\n- [x] This is a single bug report (please file separate reports for different bugs)\n- [x] I am using the latest version of Claude Code\n\n### What's Wrong?\n\nI am using claude code inside a worktree using `claude --worktree`. The worktree is created: \n\n```\n➜ git worktree list\n/<path>/<project>                                           9924f5f [main]\n/<path>/<project>/.claude/worktrees/noble-soaring-elephant  9924f5f [worktree-noble-soaring-elephant]\n```\n\nThe branch is there. I cannot switch to the worktree or the branch because it is actively used by claude code.\n\nThe agent was asked to do an action. The main branch was updated. I am not going to ask an LLM why it did something. It does not know. I did try and it hallucinated how worktrees work. The behavior was incorrect however the tools/subagents were called to a full path of my repo. The edits should be within the isolation of the worktree I opened the harness in. I now have to untie the agents vomit from my work.\n\nFrom what I can tell the agent used a full path to the directory for the subagent calls. The full path was to the root of the project not the relative path of the agent's worktree.\n\n### What Should Happen?\n\nWhen in a worktree claude code should use either the absolute path to the worktree it is in or a relative path.\n\n### Error Messages/Logs\n\n```shell\n\n```\n\n### Steps to Reproduce\n\nIt is hit or miss behavior. Run `claude --worktree` ask for an edit and hope it does not stomp on main.\n\n### Claude Model\n\nNone\n\n### Is this a regression?\n\nYes, this worked in a previous version\n\n### Last Working Version\n\n_No response_\n\n### Claude Code Version\n\n2.1.123\n\n### Platform\n\nAnthropic API\n\n### Operating System\n\nUbuntu/Debian Linux\n\n### Terminal/Shell\n\nWindows Terminal\n\n### Additional Information\n\n_No response_",
+        "reactions": {
+          "url": "https://api.github.com/repos/anthropics/claude-code/issues/55044/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/anthropics/claude-code/issues/55044/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "duplicate",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-30T15:22:08Z",
+    "org": {
+      "id": 76263028,
+      "login": "anthropics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/anthropics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76263028?"
+    }
+  },
+  {
+    "id": "11215068392",
+    "type": "PushEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 1224912270,
+      "name": "couryrr/dspy-what",
+      "url": "https://api.github.com/repos/couryrr/dspy-what"
+    },
+    "payload": {
+      "repository_id": 1224912270,
+      "push_id": 33506586884,
+      "ref": "refs/heads/main",
+      "head": "aca0b768db67d6bd6d73f3c5e2af329bfbd38f07",
+      "before": "d88df4dd8562a39abc0a042d276283d651c4e69f"
+    },
+    "public": true,
+    "created_at": "2026-04-29T18:59:46Z"
+  },
+  {
+    "id": "11214925116",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 1224912270,
+      "name": "couryrr/dspy-what",
+      "url": "https://api.github.com/repos/couryrr/dspy-what"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-04-29T18:55:55Z"
+  },
+  {
+    "id": "8650465606",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 1204942090,
+      "name": "vibed-coded/craft-pipeline",
+      "url": "https://api.github.com/repos/vibed-coded/craft-pipeline"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "created_at": "2026-04-21T20:39:37Z",
+    "org": {
+      "id": 246864760,
+      "login": "vibed-coded",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vibed-coded",
+      "avatar_url": "https://avatars.githubusercontent.com/u/246864760?"
+    }
+  },
+  {
+    "id": "10862096689",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 662226797,
+      "name": "couryrr/scripts-conf-dot",
+      "url": "https://api.github.com/repos/couryrr/scripts-conf-dot"
+    },
+    "payload": {
+      "ref": "feature/better-bashrc-setup",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/feature/better-bashrc-setup",
+      "master_branch": "main",
+      "description": "Just some scripts, configuration and dot files I use",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-04-21T16:01:55Z"
+  },
+  {
+    "id": "10832984406",
+    "type": "PushEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 1166778026,
+      "name": "couryrr/map-basics-system",
+      "url": "https://api.github.com/repos/couryrr/map-basics-system"
+    },
+    "payload": {
+      "repository_id": 1166778026,
+      "push_id": 33124782828,
+      "ref": "refs/heads/main",
+      "head": "0118ed22450dae000d3f8d022dff9f4f6bfba761",
+      "before": "02ad11c73646d7dccb61551a41f114bb0f4794b1"
+    },
+    "public": true,
+    "created_at": "2026-04-21T02:22:36Z"
+  },
+  {
+    "id": "10831532228",
+    "type": "PushEvent",
+    "actor": {
+      "id": 2702992,
+      "login": "couryrr",
+      "display_login": "couryrr",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/couryrr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2702992?"
+    },
+    "repo": {
+      "id": 1166778026,
+      "name": "couryrr/map-basics-system",
+      "url": "https://api.github.com/repos/couryrr/map-basics-system"
+    },
+    "payload": {
+      "repository_id": 1166778026,
+      "push_id": 33123330093,
+      "ref": "refs/heads/main",
+      "head": "02ad11c73646d7dccb61551a41f114bb0f4794b1",
+      "before": "e52a925424ad2a3a9f8383dea115e6d8ec0b4d3b"
+    },
+    "public": true,
+    "created_at": "2026-04-21T01:21:26Z"
+  }
+]

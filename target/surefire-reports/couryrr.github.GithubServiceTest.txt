@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+Test set: couryrr.github.GithubServiceTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.661 s <<< FAILURE! -- in couryrr.github.GithubServiceTest
+couryrr.github.GithubServiceTest.shouldMapDeleteEventData -- Time elapsed: 0.120 s <<< ERROR!
+tools.jackson.databind.exc.InvalidTypeIdException: 
+Could not resolve type id 'DeleteEvent' as a subtype of `couryrr.github.GitHubEvent`: no such class found
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #UNKNOWN]
+	at tools.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:41)
+	at tools.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2143)
+	at tools.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1706)
+	at tools.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:89)
+	at tools.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:70)
+	at tools.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:154)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:119)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:103)
+	at tools.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:243)
+	at tools.jackson.databind.deser.impl.TypeWrappedDeserializer.deserialize(TypeWrappedDeserializer.java:72)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:266)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2639)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1544)
+	at couryrr.github.GithubService.map(GithubService.java:36)
+	at couryrr.github.GithubServiceTest.shouldMapDeleteEventData(GithubServiceTest.java:51)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+couryrr.github.GithubServiceTest.shouldMapPullRequestEventData -- Time elapsed: 0.003 s <<< ERROR!
+tools.jackson.databind.exc.InvalidTypeIdException: 
+Could not resolve type id 'PullRequestEvent' as a subtype of `couryrr.github.GitHubEvent`: no such class found
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #UNKNOWN]
+	at tools.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:41)
+	at tools.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2143)
+	at tools.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1706)
+	at tools.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:89)
+	at tools.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:70)
+	at tools.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:154)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:119)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:103)
+	at tools.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:243)
+	at tools.jackson.databind.deser.impl.TypeWrappedDeserializer.deserialize(TypeWrappedDeserializer.java:72)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:266)
+	at tools.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2639)
+	at tools.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:1544)
+	at couryrr.github.GithubService.map(GithubService.java:36)
+	at couryrr.github.GithubServiceTest.shouldMapPullRequestEventData(GithubServiceTest.java:116)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
+couryrr.github.GithubServiceTest.shouldMapMultipleEventData -- Time elapsed: 0.007 s <<< ERROR!
+tools.jackson.databind.exc.InvalidTypeIdException: 
+Could not resolve type id 'DeleteEvent' as a subtype of `couryrr.github.GitHubEvent`: no such class found
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); byte offset: #UNKNOWN] (through reference chain: java.util.ArrayList[0])
+	at tools.jackson.databind.exc.InvalidTypeIdException.from(InvalidTypeIdException.java:41)
+	at tools.jackson.databind.DeserializationContext.invalidTypeIdException(DeserializationContext.java:2143)
+	at tools.jackson.databind.DeserializationContext.handleUnknownTypeId(DeserializationContext.java:1706)
+	at tools.jackson.databind.jsontype.impl.ClassNameIdResolver._typeFromId(ClassNameIdResolver.java:89)
+	at tools.jackson.databind.jsontype.impl.ClassNameIdResolver.typeFromId(ClassNameIdResolver.java:70)
+	at tools.jackson.databind.jsontype.impl.TypeDeserializerBase._findDeserializer(TypeDeserializerBase.java:154)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer._deserializeTypedForId(AsPropertyTypeDeserializer.java:119)
+	at tools.jackson.databind.jsontype.impl.AsPropertyTypeDeserializer.deserializeTypedFromObject(AsPropertyTypeDeserializer.java:103)
+	at tools.jackson.databind.deser.AbstractDeserializer.deserializeWithType(AbstractDeserializer.java:243)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeNoNullChecks(CollectionDeserializer.java:582)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer._deserializeFromArray(CollectionDeserializer.java:389)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:279)
+	at tools.jackson.databind.deser.jdk.CollectionDeserializer.deserialize(CollectionDeserializer.java:30)
+	at tools.jackson.databind.deser.DeserializationContextExt.readRootValue(DeserializationContextExt.java:266)
+	at tools.jackson.databind.ObjectReader._bindAndClose(ObjectReader.java:1888)
+	at tools.jackson.databind.ObjectReader.readValue(ObjectReader.java:1304)
+	at couryrr.github.GitHubEvent.fromJson(GitHubEvent.java:13)
+	at couryrr.github.GithubServiceTest.shouldMapMultipleEventData(GithubServiceTest.java:205)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1612)
+
