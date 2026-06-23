@@ -6,6 +6,10 @@ import java.util.Optional;
 
 import org.junit.jupiter.api.Test;
 
+import couryrr.github.models.DeleteEvent;
+import couryrr.github.models.GitHubEvent;
+import couryrr.github.models.PullRequestEvent;
+
 public class GithubServiceTest {
   @Test
   public void shouldFetchData() {
@@ -17,7 +21,7 @@ public class GithubServiceTest {
   @Test
   public void shouldMapDeleteEventData() {
     var input = """
-        {
+        [{
             "id": "11723755474",
             "type": "DeleteEvent",
             "actor": {
@@ -41,16 +45,16 @@ public class GithubServiceTest {
             },
             "public": true,
             "created_at": "2026-05-12T01:16:15Z"
-          }
+        }]
         """;
     var body = Optional.of(input);
 
     var service = new GithubService();
 
     if (body.isPresent()) {
-      var event = service.map(body.get());
-      assertTrue(event instanceof DeleteEvent);
-      if (event instanceof DeleteEvent d) {
+      var events = service.map(body.get());
+      assertTrue(events.get(0) instanceof DeleteEvent);
+      if (events.get(0) instanceof DeleteEvent d) {
         assertEquals("11723755474", d.id());
         assertEquals("feature/better-bashrc-setup", d.payload().ref());
         assertEquals("branch", d.payload().refType());
@@ -61,7 +65,7 @@ public class GithubServiceTest {
   @Test
   public void shouldMapPullRequestEventData() {
     var input = """
-              {
+          [{
           "id": "9341021848",
           "type": "PullRequestEvent",
           "actor": {
@@ -106,16 +110,16 @@ public class GithubServiceTest {
           },
           "public": true,
           "created_at": "2026-05-12T01:15:55Z"
-        }
+          }]
               """;
     var body = Optional.of(input);
 
     var service = new GithubService();
 
     if (body.isPresent()) {
-      var event = service.map(body.get());
-      assertTrue(event instanceof PullRequestEvent);
-      if (event instanceof PullRequestEvent pr) {
+      var events = service.map(body.get());
+      assertTrue(events.get(0) instanceof PullRequestEvent);
+      if (events.get(0) instanceof PullRequestEvent pr) {
         assertEquals("9341021848", pr.id());
         assertEquals("merged", pr.payload().action());
       }

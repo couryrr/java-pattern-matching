@@ -1,13 +1,13 @@
-package couryrr.github;
+package couryrr.github.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonTypeName;
 
-// @JsonTypeName("PullRequestEvent")
+@JsonTypeName("PullRequestEvent")
 @JsonIgnoreProperties(ignoreUnknown = true)
-record PullRequestEvent(String id, PullRequestPayload payload) implements GitHubEvent {
+public record PullRequestEvent(String id, PullRequestPayload payload) implements GitHubEvent {
     @JsonIgnoreProperties(ignoreUnknown = true)
-    record PullRequestPayload(
+    public record PullRequestPayload(
        String action
     ) {}
 }
