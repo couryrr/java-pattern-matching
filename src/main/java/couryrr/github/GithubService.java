@@ -23,7 +23,6 @@ public class GithubService {
             HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
 
             if (response.statusCode() == 200) {
-                System.out.println(response.body());
                 events = map(response.body());
             }
         } catch (Exception e) {
